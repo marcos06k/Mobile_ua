@@ -1,0 +1,89 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+header {
+    /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2); */
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 90px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+header .div_header_container{
+    background-color: #FA0700;
+    width: 30px;
+    height: 70px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+header .div_header_container div {
+    font-size: 20px;
+    line-height: 0px;
+    text-align: center;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+main .section_data_filtro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main .section_data_filtro div{
+    font-size: 20px;
+    line-height: 4px;
+}
+
+#options{
+    width: 100px;
+    height: 30px;
+}
+
+main .session_cards{
+    margin: 0 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: end;    
+}
+main .session_cards .div_container_cards{
+    width: 90%;
+    height: 130px;
+    margin: 5% 0 0 0 ;
+
+    display: flex;
+
+    border-radius: 15px  0 0 15px ;
+
+    background-color: #FA0700;
+
+}
+
+main .session_cards .div_container_cards .div_paragrafos {
+    width: 70%;
+    font-size: 18px;
+    line-height: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main .session_cards .div_container_cards .div_opcoes {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main .session_cards .div_container_cards .div_opcoes img{
+    width: 70px;
+}
