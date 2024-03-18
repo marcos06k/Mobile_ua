@@ -47,6 +47,17 @@ main .section_data_filtro div{
     line-height: 4px;
 }
 
+main .section_data_filtro .div_tarefa a{
+    margin: 0 0 0 0 ;
+    background-color: #FA0700;
+    color: black;
+    border: none;
+    padding: 3px 10px 3px 10px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
 #options{
     width: 100px;
     height: 30px;
@@ -109,7 +120,7 @@ main .session_detalhes .div_botao{
     display: flex;
     justify-content: end;
 }
-main .session_detalhes .div_botao button{
+main .session_detalhes .div_botao a{
     margin: 0 2% 0 0 ;
     background-color: black;
     color: white;
@@ -131,4 +142,36 @@ main .session_descricao{
 
 main .session_descricao div{
     margin: 0 0 0 2%;
+}
+
+
+main form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin: 10%;
+}
+main form label{
+    margin: 5% 0 0 0;
+    text-align: start;
+    width: 250px;
+}
+main form input{
+    width: 250px;
+    height: 24px;
+}
+main form #descricao{
+    width: 250px;
+    height: 150px;
+}
+
+main form #submit{
+    margin: 5% 0 0 0;
+    width: 100px;
+    background-color: #FA0700;
+    border-radius: 3px;
+    border: 1px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
