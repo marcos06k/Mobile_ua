@@ -87,3 +87,48 @@ main .session_cards .div_container_cards .div_opcoes {
 main .session_cards .div_container_cards .div_opcoes img{
     width: 70px;
 }
+
+
+/* TELA OPCOES.HTML */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main .session_detalhes {
+    margin: 10% 0 0 0 ;
+    width: 93%;
+    background-color: #FA0700;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main .session_detalhes .div_botao{
+    display: flex;
+    justify-content: end;
+}
+main .session_detalhes .div_botao button{
+    margin: 0 2% 0 0 ;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 5px 20px 5px 20px;
+}
+
+main .session_detalhes div{
+    margin: 2% 0 0 2%;
+}
+
+main .session_descricao{
+    margin: 5% 0 0 0 ;
+    width: 93%;
+    background-color: #FA0700;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main .session_descricao div{
+    margin: 0 0 0 2%;
+}
